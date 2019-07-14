@@ -30,8 +30,8 @@ function populateResults(results){
     for (result of results){
         const indiCard = document.createElement("div")
         indiCard.innerHTML = 
-        `<div class="indicard fl center bg-transparent br3 pa3 pa2-ns mv3 ba b--black-10">
-            <div class="tc">
+        `<div class="indicard dt fl center bg-transparent br3 pa3 pa2 ba b--black-10">
+            <div class="dtc v-mid tc">
                 <img src="${result.artworkUrl100}" class="br-100 h3 w3 dib">
                 <div class="body-card">
                     <p><strong>Song:</strong><br>${result.trackName}</br></p>

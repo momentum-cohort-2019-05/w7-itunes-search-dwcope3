@@ -2,14 +2,14 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    max-width: 100%;
 }
 
 html {
     background-image: url(w7-tunes-bg.png);
     background-size: contain;
-    background-position: center;
+    background-position: fixed;
     background-repeat: repeat-y;
+    width: 100%;
     max-width: 100%;
 }
 
@@ -37,10 +37,15 @@ html {
     font-size: 20px
 }
 
+.show-results {
+
+}
 .indicard {
     margin: 5px;
     width: 150px;
-    white-space: nowrap;
+    height: 350px;
+    vertical-align: middle;
+    /* white-space: nowrap; */
     overflow: hidden;
     text-overflow: ellipsis;
 }
