@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+}
+
+html {
+    background-image: url(w7-tunes-bg.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: repeat-y;
+    max-width: 100%;
+}
+
+.page-header {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(50, 203, 250);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 100px;
+    font-weight: 800;
+    letter-spacing: -3px;
+    line-height: 1;
+    text-shadow: rgb(253, 144, 244) 3px 2px 0;
+    position: relative;
+}
+
+.search-div {
+    text-align: center;
+}
+
+.search-field {
+    height: 30px;
+    width: 200px;
+    font-size: 20px
+}
+
+.indicard {
+    margin: 5px;
+    width: 150px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
