@@ -26,6 +26,7 @@ searchInput.addEventListener("keydown", function(event){
 })
 
 function populateResults(results){
+    // const bgimg = document.querySelector()
     showResults.innerHTML = ""
     for (result of results){
         const indiCard = document.createElement("div")

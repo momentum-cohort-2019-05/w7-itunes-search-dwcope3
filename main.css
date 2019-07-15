@@ -6,11 +6,9 @@
 
 html {
     background-image: url(w7-tunes-bg.png);
-    background-size: contain;
-    background-position: fixed;
-    background-repeat: repeat-y;
-    width: 100%;
-    max-width: 100%;
+    background-size: 100%;
+    /* background-position: fixed; */
+    /* background-repeat: repeat-y; */
 }
 
 .page-header {
